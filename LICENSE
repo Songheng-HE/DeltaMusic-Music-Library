@@ -1,0 +1,8 @@
+# DeltaMusic 音乐资料库的分项许可
+
+本仓库不是单一统一许可证项目。请根据文件内容分别适用下列许可：
+
+- Skill、Python、测试及代码相关文档：采用 [MIT 许可证](licenses/MIT.txt)。
+- MIDI、输入谱面、转录数据、审计报告及其他音乐相关资料：采用 [CC BY 4.0](LICENSE-MUSIC-CC-BY-4.0.md)，除非具体文件另有标注。
+
+完整权利说明、署名要求与历史记录处理方式见 [RIGHTS.md](RIGHTS.md)。

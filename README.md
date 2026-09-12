@@ -58,7 +58,7 @@ GitHub 不会直接播放 MIDI。每个群友投稿即使只有一个 `.mid`，�
 
 本仓库采用分项许可：
 
-- Skill、Python、测试和文档代码部分：采用 [MIT 许可证](LICENSE-CODE-MIT.txt)。
+- Skill、Python、测试和文档代码部分：采用 [MIT 许可证](licenses/MIT.txt)。
 - MIDI、输入谱面、转录数据、审计报告和与音乐内容直接相关的资料：采用 [CC BY 4.0](LICENSE-MUSIC-CC-BY-4.0.md)，除非具体文件另有标注。
 
 维护者声明：已取得向公众公开、分发和在本仓库许可下使用所需的权利或授权。授权原件可能包含隐私或保密信息，因此不随仓库公开；详情见 [RIGHTS.md](RIGHTS.md)。

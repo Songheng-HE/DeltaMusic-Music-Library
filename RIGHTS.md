@@ -8,7 +8,7 @@
 
 | 内容 | 许可 | 你可以做什么 |
 | --- | --- | --- |
-| `.agents/`、`delta-music-score-to-midi/` 中的 Skill、Python、测试与代码文档 | [MIT](LICENSE-CODE-MIT.txt) | 使用、复制、修改和再发布代码，保留许可证声明。 |
+| `.agents/`、`delta-music-score-to-midi/` 中的 Skill、Python、测试与代码文档 | [MIT](licenses/MIT.txt) | 使用、复制、修改和再发布代码，保留许可证声明。 |
 | MIDI、输入谱面、转录数据、审计报告及其他音乐相关资料 | [CC BY 4.0](LICENSE-MUSIC-CC-BY-4.0.md) | 复制、演奏、改编、再发布和商用；需署名、附许可链接并说明改动。 |
 
 除非文件旁另有更严格或更具体的标注，以上规则适用。再发布时，请署名“DeltaMusic 音乐资料库”并保留具体曲目文件路径和许可链接；不得暗示维护者、权利人或原作者为你的改编作品背书。
