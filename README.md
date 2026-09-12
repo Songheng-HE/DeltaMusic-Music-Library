@@ -7,7 +7,7 @@
 ## 快速入口
 
 - [逐首下载可演奏 MIDI](CATALOG.md)
-- [下载全部可演奏 MIDI（ZIP）](https://github.com/Songheng-HE/DeltaMusic-Music-Library/releases/latest/download/DeltaMusic-playable-midi-v0.1.1.zip)
+- [下载全部可演奏 MIDI（ZIP）](https://github.com/Songheng-HE/DeltaMusic-Music-Library/releases/latest/download/DeltaMusic-playable-midi-v0.1.2.zip)
 - [查看下载文件的 SHA-256 清单](CHECKSUMS-SHA256.txt)
 - [在 Codex、ChatGPT、Deep Code、豆包或 DeepSeek 中使用](PLATFORM_GUIDE.md)
 - [复制提示词开始修谱](PROMPTS.md)
@@ -40,11 +40,11 @@ findMusic/
 
 ## 普通玩家：下载哪个文件？
 
-只想演奏时，请从 [曲目目录](CATALOG.md) 的“中文下载文件”列进入 [`可下载演奏版/`](可下载演奏版/)。文件均采用“曲名（版本说明）.mid”格式，因此下载到本地后不会混淆。
+只想演奏时，请从 [曲目目录](CATALOG.md) 的“中文下载文件”列进入 [`可下载演奏版/`](可下载演奏版/)。文件均采用“曲名（版本说明·关键导入参数）.mid”格式，因此下载到本地后不会混淆。
 
 先看状态再下载：**已验证默认可演奏版**可作为默认选择；**可演奏候选，待作者确认**可以试听和使用，但还不应被叫作“最终版”；**上声部候选，待试听确认**需要人工确认旋律选择。
 
-有些曲目内部的历史报告仍使用旧文件名；请以 [曲目目录](CATALOG.md)、[MIDI-MANIFEST.yml](MIDI-MANIFEST.yml) 和对应文件的 SHA-256 为准。改名不会改变 SHA-256。
+文件名中的 `导入音高-12` 表示：在播放器导入界面把音高/八度偏移设为 `-12`，即降一个八度。只有会明显影响演奏结果的非默认参数才写入文件名；完整设置以 [曲目目录](CATALOG.md)、[MIDI-MANIFEST.yml](MIDI-MANIFEST.yml) 和对应文件的 SHA-256 为准。改名不会改变 SHA-256。
 
 ## 修谱者：从哪里开始？
 
@@ -56,9 +56,9 @@ findMusic/
 
 ## 群友修谱如何展示？
 
-GitHub 不会直接播放 MIDI。每个群友投稿即使只有一个 `.mid`，也应同时有一个简短的 `submission.yml`：写清曲名、版本、提交者 GitHub ID、基于哪个输入、修改内容、许可和审核状态。
+GitHub 不会直接播放 MIDI。每个群友投稿即使只有一个 `.mid`，也应同时有一个完整的 `submission.yml`：写清曲名、版本、提交者 GitHub ID、基于哪个输入、修改内容、导入音高、速度、其他导入设置、试听平台、许可和审核状态。飞书或抖音群中的投稿可先复制 [群聊投稿模板](community/群聊投稿模板.md) 填写，再由维护者整理到仓库。
 
-在 [社区投稿目录](community/README.md) 中会以表格显示“曲目、提交者、状态、版本、直接下载 MIDI、说明”。待审核候选与“默认可演奏版”分开存放，避免普通玩家误下载尚未复核的文件。
+在 [社区投稿目录](community/README.md) 中会以表格显示“曲目、提交者、状态、版本、导入设置、已试听平台、直接下载 MIDI、说明”。待审核候选与“默认可演奏版”分开存放，避免普通玩家误下载尚未复核的文件。
 
 ## 许可与权利
 
