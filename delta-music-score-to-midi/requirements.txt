@@ -1,0 +1,2 @@
+# Core conversion and test dependency. Python 3.10+ is required.
+mido>=1.3,<2

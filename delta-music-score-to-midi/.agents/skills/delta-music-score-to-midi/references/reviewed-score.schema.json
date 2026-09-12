@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Songheng-HE/delta-music-score-to-midi/main/.agents/skills/delta-music-score-to-midi/references/reviewed-score.schema.json",
+  "title": "Delta reviewed score IR",
+  "description": "Human-reviewed, measure-complete score data for deterministic monophonic MIDI compilation. Beat values are rational strings measured in quarter-note beats. Playback BPM is distinguished from printed tempo evidence. Version 1 has one global BPM and time signature, does not support pickup bars or meter/tempo changes, and requires repeats or other navigation to be expanded into a finite performance_route.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "title",
+    "source",
+    "bpm",
+    "bpm_origin",
+    "printed_tempo_text",
+    "printed_numeric_bpm",
+    "time_signature",
+    "parts",
+    "performance_route"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "format": { "const": "delta-reviewed-score/v1" },
+    "title": { "$ref": "#/$defs/nonemptyString" },
+    "composer": { "$ref": "#/$defs/nonemptyString" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "$ref": "#/$defs/nonemptyString" },
+        "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+        "document_type": {
+          "enum": ["pdf", "image", "musicxml", "midi", "other"]
+        }
+      }
+    },
+    "bpm": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 1000
+    },
+    "bpm_origin": {
+      "enum": ["printed_score", "editorial_setting"]
+    },
+    "printed_tempo_text": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "printed_numeric_bpm": {
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0,
+      "maximum": 1000
+    },
+    "time_signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numerator", "denominator"],
+      "properties": {
+        "numerator": { "type": "integer", "minimum": 1, "maximum": 32 },
+        "denominator": { "enum": [1, 2, 4, 8, 16, 32, 64] }
+      }
+    },
+    "ticks_per_beat": {
+      "type": "integer",
+      "minimum": 24,
+      "maximum": 9600,
+      "default": 480
+    },
+    "parts": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/part" }
+    },
+    "performance_route": {
+      "description": "Finite playback order. Repeats are represented by repeating explicit steps.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["part_id", "measure_id"],
+        "properties": {
+          "part_id": { "$ref": "#/$defs/nonemptyString" },
+          "measure_id": { "$ref": "#/$defs/nonemptyString" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "nonemptyString": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "offsetBeat": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)(/[1-9][0-9]*)?$"
+    },
+    "positiveBeat": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*(/[1-9][0-9]*)?$"
+    },
+    "reviewFields": {
+      "type": "object",
+      "properties": {
+        "review_state": { "const": "visually_checked" },
+        "source_ref": { "$ref": "#/$defs/nonemptyString" },
+        "review_note": { "$ref": "#/$defs/nonemptyString" }
+      }
+    },
+    "event": {
+      "oneOf": [
+        { "$ref": "#/$defs/noteEvent" },
+        { "$ref": "#/$defs/restEvent" }
+      ]
+    },
+    "noteEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "offset_beats",
+        "duration_beats",
+        "pitch",
+        "review_state"
+      ],
+      "properties": {
+        "type": { "const": "note" },
+        "offset_beats": { "$ref": "#/$defs/offsetBeat" },
+        "duration_beats": { "$ref": "#/$defs/positiveBeat" },
+        "pitch": { "type": "integer", "minimum": 0, "maximum": 127 },
+        "velocity": { "type": "integer", "minimum": 1, "maximum": 127, "default": 80 },
+        "tie_in": { "type": "boolean", "default": false },
+        "tie_out": { "type": "boolean", "default": false },
+        "slur_start": { "type": "boolean", "default": false },
+        "slur_end": { "type": "boolean", "default": false },
+        "review_state": { "const": "visually_checked" },
+        "source_ref": { "$ref": "#/$defs/nonemptyString" },
+        "review_note": { "$ref": "#/$defs/nonemptyString" }
+      }
+    },
+    "restEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "offset_beats", "duration_beats", "review_state"],
+      "properties": {
+        "type": { "const": "rest" },
+        "offset_beats": { "$ref": "#/$defs/offsetBeat" },
+        "duration_beats": { "$ref": "#/$defs/positiveBeat" },
+        "review_state": { "const": "visually_checked" },
+        "source_ref": { "$ref": "#/$defs/nonemptyString" },
+        "review_note": { "$ref": "#/$defs/nonemptyString" }
+      }
+    },
+    "measure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "source_ref", "events"],
+      "properties": {
+        "id": { "$ref": "#/$defs/nonemptyString" },
+        "label": { "$ref": "#/$defs/nonemptyString" },
+        "source_ref": { "$ref": "#/$defs/nonemptyString" },
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/event" }
+        }
+      }
+    },
+    "part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "measures"],
+      "properties": {
+        "id": { "$ref": "#/$defs/nonemptyString" },
+        "label": { "$ref": "#/$defs/nonemptyString" },
+        "measures": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/measure" }
+        }
+      }
+    }
+  }
+}

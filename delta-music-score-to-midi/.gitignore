@@ -1,0 +1,28 @@
+# Keep this repository source-only. Do not publish downloaded scores, MIDI files,
+# generated players, reports, manifests, or local Python/IDE state.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# User music material and generated outputs are deliberately excluded.
+input/
+songs/
+output/
+artifacts/
+reports/
+transcription/
+examples/synthetic/generated/
+*.mid
+*.midi
+*.zip
+*_three_octave_player.py
+manifest.json
+
+# Local editor and GitHub credential files.
+.vscode/
+.idea/
+.env

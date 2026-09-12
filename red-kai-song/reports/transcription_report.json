@@ -1,0 +1,327 @@
+{
+  "report_format": "delta-reviewed-score-compile/v1",
+  "score_ir": {
+    "path": "仓库根目录\\red-kai-song\\transcription\\reviewed_score.json",
+    "sha256": "2b3673aa14982387ade20a942ac49c944602103058fc1626a1cc426afa6c2b32"
+  },
+  "source": {
+    "path": "仓库根目录\\red-kai-song\\input\\red-kai-song-score.png",
+    "document_type": "image",
+    "expected_sha256": "bf684dbb7093fc8ea0dea77b7700bda2945552a58028c5a57104e852740f73e5",
+    "verified_sha256": "bf684dbb7093fc8ea0dea77b7700bda2945552a58028c5a57104e852740f73e5",
+    "hash_verified": true
+  },
+  "output_file": "仓库根目录\\red-kai-song\\red-kai-song_melody_only.mid",
+  "output_sha256": "75fd9d9801f27f4e11f67769140b652bf7001158dedf41661800315865ce2a42",
+  "settings": {
+    "ticks_per_beat": 480,
+    "bpm": 88,
+    "playback_bpm": 88,
+    "playback_bpm_origin": "printed_score",
+    "printed_tempo_text": "♩=88",
+    "printed_numeric_bpm": 88,
+    "microseconds_per_beat": 681818,
+    "time_signature": {
+      "numerator": 4,
+      "denominator": 4
+    }
+  },
+  "performance_route": {
+    "step_count": 69,
+    "steps": [
+      {
+        "part_id": "melody",
+        "measure_id": "a1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "a8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "b8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "c8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d5"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d6"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d7"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "d8"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "e1"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "e2"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "e3"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "e4"
+      },
+      {
+        "part_id": "melody",
+        "measure_id": "e5"
+      }
+    ],
+    "total_quarter_beats": "276",
+    "total_ticks": 132480
+  },
+  "validation": {
+    "all_events_visually_checked": true,
+    "unique_measures_validated": 37,
+    "routed_measure_instances": 69,
+    "strictly_monophonic": true,
+    "roundtrip_verified": true,
+    "source_note_event_count": 308,
+    "note_count": 303,
+    "rest_count": 44,
+    "tie_groups_merged": 5
+  },
+  "pitch_range": {
+    "lowest_pitch": 48,
+    "highest_pitch": 76
+  }
+}

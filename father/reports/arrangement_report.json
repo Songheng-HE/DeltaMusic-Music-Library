@@ -1,0 +1,78 @@
+{
+  "format": "delta-single-line-arrangement/v1",
+  "source_file": "仓库根目录\\father\\input\\父亲——筷子兄弟.mid",
+  "source_sha256": "589a40d6deb5a823eeaf2ee08dd4f801e41d7ec75edae601993e20584a3a4571",
+  "intended_use": "private",
+  "rights_status": "unknown",
+  "classification": "single-line arrangement",
+  "baseline": {
+    "track_name": "Voice",
+    "note_count": 442
+  },
+  "handoff": {
+    "source_track_name": "Piano",
+    "reason": "User-confirmed complete phrase during the reviewed Voice gap.",
+    "gap_start_tick": 69984,
+    "gap_end_tick": 72960,
+    "notes": [
+      {
+        "tick": 70080,
+        "end_tick": 70296,
+        "pitch": 64,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 70320,
+        "end_tick": 70536,
+        "pitch": 68,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 70560,
+        "end_tick": 70776,
+        "pitch": 63,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 70800,
+        "end_tick": 71016,
+        "pitch": 64,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 71760,
+        "end_tick": 71976,
+        "pitch": 63,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 72000,
+        "end_tick": 72216,
+        "pitch": 64,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 72240,
+        "end_tick": 72456,
+        "pitch": 68,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 72480,
+        "end_tick": 72696,
+        "pitch": 63,
+        "source_track": "Piano"
+      },
+      {
+        "tick": 72720,
+        "end_tick": 72936,
+        "pitch": 64,
+        "source_track": "Piano"
+      }
+    ]
+  },
+  "output_file": "仓库根目录\\father\\father_single_line_arrangement_melody_only.mid",
+  "output_note_count": 451,
+  "source_total_ticks": 151680,
+  "global_transpose_semitones": 0
+}

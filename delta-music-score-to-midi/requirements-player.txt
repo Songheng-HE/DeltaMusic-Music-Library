@@ -1,0 +1,4 @@
+# Optional: needed only when actually running a generated auto-input player.
+# Do not install these merely to use --dry-run or to export a MIDI file.
+keyboard>=0.13.5
+pydirectinput>=1.0.4

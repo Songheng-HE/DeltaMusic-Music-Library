@@ -1,0 +1,98 @@
+{
+  "source_file": "仓库根目录\\kill-that-shijiazhuang-man\\kill-that-shijiazhuang-man_melody_only.mid",
+  "source_sha256": "3d867640834dcc78f3432241c29667edca9fe6a1308bf19cb2450b44e02e092e",
+  "global": {
+    "midi_type": 1,
+    "ticks_per_beat": 480,
+    "total_ticks": 218400,
+    "duration_seconds": 293.548255,
+    "tempo_map": [
+      {
+        "tick": 0,
+        "microseconds_per_beat": 645161,
+        "bpm": 93.000042
+      }
+    ],
+    "time_signatures": [
+      {
+        "tick": 0,
+        "track_index": 0,
+        "order": 2,
+        "numerator": 4,
+        "denominator": 4,
+        "clocks_per_click": 24,
+        "notated_32nd_notes_per_beat": 8
+      }
+    ],
+    "key_signatures": [
+      {
+        "tick": 0,
+        "track_index": 0,
+        "order": 3,
+        "key": "Am"
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "track_index": 0,
+      "track_name": "conductor",
+      "programs": [],
+      "channels": [],
+      "note_count": 0,
+      "unique_onset_count": 0,
+      "max_simultaneous_notes": 0,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 0,
+      "strictly_monophonic": true,
+      "lowest_pitch": null,
+      "lowest_note": null,
+      "highest_pitch": null,
+      "highest_note": null,
+      "first_onset_tick": null,
+      "last_end_tick": null,
+      "median_duration_ticks": null,
+      "most_common_duration_ticks": null,
+      "most_common_duration_ratio": 0.0,
+      "median_onset_interval_ticks": null,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 1,
+      "track_name": "melody_only",
+      "programs": [
+        0
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 207,
+      "unique_onset_count": 207,
+      "max_simultaneous_notes": 1,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": true,
+      "lowest_pitch": 57,
+      "lowest_note": "A3",
+      "highest_pitch": 69,
+      "highest_note": "A4",
+      "first_onset_tick": 34080,
+      "last_end_tick": 218400,
+      "median_duration_ticks": 240,
+      "most_common_duration_ticks": 240,
+      "most_common_duration_ratio": 0.5266,
+      "median_onset_interval_ticks": 240,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    }
+  ]
+}

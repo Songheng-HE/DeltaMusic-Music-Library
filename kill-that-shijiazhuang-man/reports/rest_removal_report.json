@@ -1,0 +1,30 @@
+{
+  "input": "仓库根目录\\kill-that-shijiazhuang-man\\kill-that-shijiazhuang-man_melody_only.mid",
+  "output": "仓库根目录\\kill-that-shijiazhuang-man\\kill-that-shijiazhuang-man_melody_trimmed.mid",
+  "track_index": 1,
+  "leading_rest_removed_ticks": 34080,
+  "large_gap_threshold_ticks": 10000,
+  "removed_intervals_ticks": [
+    {
+      "start": 0,
+      "end": 34080,
+      "duration": 34080
+    },
+    {
+      "start": 63360,
+      "end": 80400,
+      "duration": 17040
+    },
+    {
+      "start": 109440,
+      "end": 126240,
+      "duration": 16800
+    },
+    {
+      "start": 156480,
+      "end": 186720,
+      "duration": 30240
+    }
+  ],
+  "total_removed_ticks": 98160
+}

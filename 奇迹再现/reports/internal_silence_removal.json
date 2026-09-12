@@ -1,0 +1,11 @@
+{
+  "operation": "remove-reviewed-internal-silence/v1",
+  "input_file": "仓库根目录\\奇迹再现\\奇迹再现_melody_from_first_note.mid",
+  "input_sha256": "53a06475bce5e5c0de8b481b73462259727fe984ac43882513c58a03f4fd9e3b",
+  "output_file": "仓库根目录\\奇迹再现\\奇迹再现_melody_no_long_pause.mid",
+  "output_sha256": "09ad386880f2ea5a4ea1dfa59884d97ac6ac5104ebd140392fc83d28e2e83326",
+  "gap_start_tick": 30528,
+  "gap_end_tick": 42908,
+  "removed_ticks": 12380,
+  "ticks_per_beat": 96
+}

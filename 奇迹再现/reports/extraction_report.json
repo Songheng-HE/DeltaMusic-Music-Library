@@ -1,0 +1,57 @@
+{
+  "report_format": "delta-midi-extract/v2",
+  "source_file": "仓库根目录\\奇迹再现\\input\\奇迹再现_source.mid",
+  "source_sha256": "07f9778b2ac2676d1602cf19405977c41ab944a172411ee86c21868f0379f0c4",
+  "output_file": "仓库根目录\\奇迹再现\\奇迹再现_melody_only.mid",
+  "output_sha256": "b353caf49ed06d7e372d1249bbbcd7a9d12a0a61f3823d39a828790329c248fe",
+  "source_track_index": 6,
+  "source_track_name": "FL Keys (MIDI) (MIDI)",
+  "structure_class": "independent-melodic-part",
+  "source_anomalies": {
+    "unmatched_note_off": 0,
+    "unterminated_notes": 0,
+    "zero_length_notes": 0
+  },
+  "settings": {
+    "same_onset": "highest",
+    "overlaps": "truncate",
+    "duration_mode": "source",
+    "onset_gate": 0.88,
+    "long_gap_beats": 2.0,
+    "long_gap_hold_beats": 1.0,
+    "trim_leading_rest": false,
+    "trimmed_ticks": 0
+  },
+  "output_melody": {
+    "track_index": 1,
+    "track_name": "melody_only",
+    "programs": [
+      0
+    ],
+    "channels": [
+      4
+    ],
+    "note_count": 422,
+    "unique_onset_count": 422,
+    "max_simultaneous_notes": 1,
+    "overlapping_note_count": 0,
+    "max_same_onset_notes": 1,
+    "strictly_monophonic": true,
+    "lowest_pitch": 66,
+    "lowest_note": "F#4",
+    "highest_pitch": 80,
+    "highest_note": "G#5",
+    "first_onset_tick": 1063,
+    "last_end_tick": 56165,
+    "median_duration_ticks": 96,
+    "most_common_duration_ticks": 96,
+    "most_common_duration_ratio": 0.436,
+    "median_onset_interval_ticks": 96,
+    "likely_karaoke_or_guide_track": false,
+    "anomalies": {
+      "unmatched_note_off": 0,
+      "unterminated_notes": 0,
+      "zero_length_notes": 0
+    }
+  }
+}

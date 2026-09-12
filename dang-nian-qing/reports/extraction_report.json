@@ -1,0 +1,35 @@
+{
+  "source_file": "input/当年情.mid",
+  "source_sha256": "c13aa6ee5edbf05d5d18ddab5da9be45ec3dd62dc99b13188cd0a8d92b07505f",
+  "output_file": "dang-nian-qing_melody_only.mid",
+  "output_sha256": "a77c848a5339e9ec8303b16a071a14d7dea274d28490bbcc5017fdc2ad1a15e1",
+  "selection": {
+    "source_track_index": 0,
+    "source_channel_number": 1,
+    "source_channel_zero_based": 0,
+    "program": "Bright Acoustic Piano (GM 1)",
+    "structure_class": "independent-melodic-part",
+    "review_basis": "User selected channel 1 after channel-level audit; it is a strictly monophonic, duplicated high-piano layer."
+  },
+  "processing": {
+    "event_count": 63,
+    "same_onset_policy": "reject; no same-onset chords present",
+    "overlap_policy": "reject; no overlaps present",
+    "duration_mode": "source",
+    "trim_leading_rest": false,
+    "transpose_semitones": 0,
+    "tempo_meter_key_preserved": true,
+    "duplicate_channel_2_included": false
+  },
+  "validation": {
+    "max_simultaneous_notes": 1,
+    "overlapping_note_count": 0,
+    "range": "A#4-D#6",
+    "output_audit": "reports/melody_audit.json"
+  },
+  "rights": {
+    "status": "unknown",
+    "intended_use": "private technical workflow only",
+    "note": "The source is a community MIDI. No permission for public sharing or redistribution of derivatives has been established."
+  }
+}

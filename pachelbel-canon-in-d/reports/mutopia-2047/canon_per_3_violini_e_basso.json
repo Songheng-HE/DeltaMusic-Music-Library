@@ -1,0 +1,212 @@
+{
+  "source_file": "仓库根目录\\pachelbel-canon-in-d\\input\\mutopia-2047\\canon_per_3_violini_e_basso.mid",
+  "source_sha256": "953b73e270117d388e9ef1a76f8b9e97ff640d1400768849f41a3cf71c59cbc1",
+  "global": {
+    "midi_type": 1,
+    "ticks_per_beat": 384,
+    "total_ticks": 86400,
+    "duration_seconds": 245.454525,
+    "tempo_map": [
+      {
+        "tick": 0,
+        "microseconds_per_beat": 1090909,
+        "bpm": 55.000005
+      }
+    ],
+    "time_signatures": [
+      {
+        "tick": 0,
+        "track_index": 0,
+        "order": 3,
+        "numerator": 4,
+        "denominator": 4,
+        "clocks_per_click": 18,
+        "notated_32nd_notes_per_beat": 8
+      }
+    ],
+    "key_signatures": [
+      {
+        "tick": 0,
+        "track_index": 1,
+        "order": 5,
+        "key": "D"
+      },
+      {
+        "tick": 0,
+        "track_index": 2,
+        "order": 5,
+        "key": "D"
+      },
+      {
+        "tick": 0,
+        "track_index": 3,
+        "order": 5,
+        "key": "D"
+      },
+      {
+        "tick": 0,
+        "track_index": 4,
+        "order": 5,
+        "key": "D"
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "track_index": 0,
+      "track_name": "control track",
+      "programs": [],
+      "channels": [],
+      "note_count": 0,
+      "unique_onset_count": 0,
+      "max_simultaneous_notes": 0,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 0,
+      "strictly_monophonic": true,
+      "lowest_pitch": null,
+      "lowest_note": null,
+      "highest_pitch": null,
+      "highest_note": null,
+      "first_onset_tick": null,
+      "last_end_tick": null,
+      "median_duration_ticks": null,
+      "most_common_duration_ticks": null,
+      "most_common_duration_ratio": 0.0,
+      "median_onset_interval_ticks": null,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 1,
+      "track_name": "violinI:",
+      "programs": [
+        40
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 593,
+      "unique_onset_count": 593,
+      "max_simultaneous_notes": 1,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": true,
+      "lowest_pitch": 55,
+      "lowest_note": "G3",
+      "highest_pitch": 86,
+      "highest_note": "D6",
+      "first_onset_tick": 3072,
+      "last_end_tick": 86400,
+      "median_duration_ticks": 96,
+      "most_common_duration_ticks": 96,
+      "most_common_duration_ratio": 0.4992,
+      "median_onset_interval_ticks": 96,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 2,
+      "track_name": "violinII:",
+      "programs": [
+        40
+      ],
+      "channels": [
+        1
+      ],
+      "note_count": 577,
+      "unique_onset_count": 577,
+      "max_simultaneous_notes": 1,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": true,
+      "lowest_pitch": 55,
+      "lowest_note": "G3",
+      "highest_pitch": 86,
+      "highest_note": "D6",
+      "first_onset_tick": 6144,
+      "last_end_tick": 86400,
+      "median_duration_ticks": 96,
+      "most_common_duration_ticks": 96,
+      "most_common_duration_ratio": 0.5113,
+      "median_onset_interval_ticks": 96,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 3,
+      "track_name": "violinIII:",
+      "programs": [
+        40
+      ],
+      "channels": [
+        2
+      ],
+      "note_count": 561,
+      "unique_onset_count": 561,
+      "max_simultaneous_notes": 1,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": true,
+      "lowest_pitch": 55,
+      "lowest_note": "G3",
+      "highest_pitch": 86,
+      "highest_note": "D6",
+      "first_onset_tick": 9216,
+      "last_end_tick": 86400,
+      "median_duration_ticks": 96,
+      "most_common_duration_ticks": 96,
+      "most_common_duration_ratio": 0.5258,
+      "median_onset_interval_ticks": 96,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 4,
+      "track_name": "violoncello:",
+      "programs": [
+        42
+      ],
+      "channels": [
+        3
+      ],
+      "note_count": 225,
+      "unique_onset_count": 225,
+      "max_simultaneous_notes": 1,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": true,
+      "lowest_pitch": 38,
+      "lowest_note": "D2",
+      "highest_pitch": 50,
+      "highest_note": "D3",
+      "first_onset_tick": 0,
+      "last_end_tick": 86400,
+      "median_duration_ticks": 384,
+      "most_common_duration_ticks": 384,
+      "most_common_duration_ratio": 1.0,
+      "median_onset_interval_ticks": 384,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    }
+  ]
+}

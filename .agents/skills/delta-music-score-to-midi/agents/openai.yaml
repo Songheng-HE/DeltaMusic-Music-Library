@@ -1,0 +1,7 @@
+interface:
+  display_name: "Delta 乐谱与 MIDI 转换"
+  short_description: "查找乐谱、复核转写单旋律谱，并生成 Delta MIDI 与播放器"
+  default_prompt: "Use $delta-music-score-to-midi to research a usable score or convert my supplied MIDI, numbered notation, PDF, or score image into a reviewed Delta MIDI and player."
+
+policy:
+  allow_implicit_invocation: true

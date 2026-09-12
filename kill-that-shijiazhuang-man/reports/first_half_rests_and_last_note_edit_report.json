@@ -1,0 +1,100 @@
+{
+  "input": "仓库根目录\\kill-that-shijiazhuang-man\\input\\杀死石家庄人.mid",
+  "output": "仓库根目录\\kill-that-shijiazhuang-man\\kill-that-shijiazhuang-man_melody_edited.mid",
+  "track_index": 1,
+  "selection": "positive rests wholly ending in the source time-line first half",
+  "source_first_half_end_tick": 60120.0,
+  "rests_halved_ticks": [
+    {
+      "start": 2400,
+      "end": 3840,
+      "original_duration": 1440,
+      "new_duration": 720
+    },
+    {
+      "start": 6240,
+      "end": 7920,
+      "original_duration": 1680,
+      "new_duration": 840
+    },
+    {
+      "start": 10080,
+      "end": 11520,
+      "original_duration": 1440,
+      "new_duration": 720
+    },
+    {
+      "start": 13920,
+      "end": 14280,
+      "original_duration": 360,
+      "new_duration": 180
+    },
+    {
+      "start": 18240,
+      "end": 18480,
+      "original_duration": 240,
+      "new_duration": 120
+    },
+    {
+      "start": 21600,
+      "end": 21960,
+      "original_duration": 360,
+      "new_duration": 180
+    },
+    {
+      "start": 25440,
+      "end": 25920,
+      "original_duration": 480,
+      "new_duration": 240
+    },
+    {
+      "start": 31440,
+      "end": 32880,
+      "original_duration": 1440,
+      "new_duration": 720
+    },
+    {
+      "start": 35280,
+      "end": 36960,
+      "original_duration": 1680,
+      "new_duration": 840
+    },
+    {
+      "start": 39120,
+      "end": 40800,
+      "original_duration": 1680,
+      "new_duration": 840
+    },
+    {
+      "start": 42960,
+      "end": 43320,
+      "original_duration": 360,
+      "new_duration": 180
+    },
+    {
+      "start": 47280,
+      "end": 47520,
+      "original_duration": 240,
+      "new_duration": 120
+    },
+    {
+      "start": 50640,
+      "end": 51000,
+      "original_duration": 360,
+      "new_duration": 180
+    },
+    {
+      "start": 54480,
+      "end": 54960,
+      "original_duration": 480,
+      "new_duration": 240
+    }
+  ],
+  "total_rest_ticks_removed": 6120,
+  "removed_final_note_span_ticks": {
+    "start": 119280,
+    "end": 120240
+  },
+  "timeline_truncated_after_source_tick": 118800,
+  "output_end_tick": 112680
+}

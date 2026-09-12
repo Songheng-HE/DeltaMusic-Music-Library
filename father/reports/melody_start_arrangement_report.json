@@ -1,0 +1,100 @@
+{
+  "format": "delta-single-line-arrangement/v1",
+  "source_file": "仓库根目录\\father\\input\\父亲——筷子兄弟.mid",
+  "source_sha256": "589a40d6deb5a823eeaf2ee08dd4f801e41d7ec75edae601993e20584a3a4571",
+  "intended_use": "private",
+  "rights_status": "unknown",
+  "classification": "single-line arrangement",
+  "baseline": {
+    "track_name": "Voice",
+    "note_count": 442
+  },
+  "handoff": {
+    "source_track_name": "Piano",
+    "reason": "User-confirmed complete phrase during the reviewed Voice gap.",
+    "gap_start_tick": 69984,
+    "gap_end_tick": 72960,
+    "output_gap_start_tick": 54624,
+    "output_gap_end_tick": 57600,
+    "notes": [
+      {
+        "source_tick": 70080,
+        "source_end_tick": 70296,
+        "output_tick": 54720,
+        "output_end_tick": 54936,
+        "pitch": 64,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 70320,
+        "source_end_tick": 70536,
+        "output_tick": 54960,
+        "output_end_tick": 55176,
+        "pitch": 68,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 70560,
+        "source_end_tick": 70776,
+        "output_tick": 55200,
+        "output_end_tick": 55416,
+        "pitch": 63,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 70800,
+        "source_end_tick": 71016,
+        "output_tick": 55440,
+        "output_end_tick": 55656,
+        "pitch": 64,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 71760,
+        "source_end_tick": 71976,
+        "output_tick": 56400,
+        "output_end_tick": 56616,
+        "pitch": 63,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 72000,
+        "source_end_tick": 72216,
+        "output_tick": 56640,
+        "output_end_tick": 56856,
+        "pitch": 64,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 72240,
+        "source_end_tick": 72456,
+        "output_tick": 56880,
+        "output_end_tick": 57096,
+        "pitch": 68,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 72480,
+        "source_end_tick": 72696,
+        "output_tick": 57120,
+        "output_end_tick": 57336,
+        "pitch": 63,
+        "source_track": "Piano"
+      },
+      {
+        "source_tick": 72720,
+        "source_end_tick": 72936,
+        "output_tick": 57360,
+        "output_end_tick": 57576,
+        "pitch": 64,
+        "source_track": "Piano"
+      }
+    ]
+  },
+  "output_file": "仓库根目录\\father\\father_single_line_arrangement_melody_start.mid",
+  "output_note_count": 451,
+  "source_total_ticks": 151680,
+  "trim_leading_ticks": 15360,
+  "output_total_ticks": 136320,
+  "global_transpose_semitones": 0
+}

@@ -1,0 +1,15 @@
+{
+  "source_file": "wobu-nanguo\\input\\ff14_wobu-nanguo_piano.mid",
+  "source_sha256": "98d9a8aee56cd5e6c61178c35bba8cd95ce803b14b2b0941ccad91b8b5c393e9",
+  "selection": {
+    "kind": "song-specific velocity-layer candidate",
+    "minimum_note_on_velocity": 93,
+    "rationale": "The selected layer was nearly monophonic in the supplied MIDI; it is a private single-line arrangement candidate, not a verified hand/voice separation."
+  },
+  "selected_note_count": 521,
+  "selected_pitch_range": [
+    58,
+    84
+  ],
+  "output_file": "wobu-nanguo\\wobu-nanguo_velocity-layer_candidate.mid"
+}

@@ -1,0 +1,17 @@
+{
+  "operation": "scale-tempo/v1",
+  "input_file": "仓库根目录\\奇迹再现\\奇迹再现.mid",
+  "input_sha256": "09ad386880f2ea5a4ea1dfa59884d97ac6ac5104ebd140392fc83d28e2e83326",
+  "output_file": "仓库根目录\\奇迹再现\\奇迹再现_1.5x_240bpm.mid",
+  "output_sha256": "c3ce53673e042fe0d905656052acc9be07a2529c1e92253b9eb35a354be95562",
+  "speed_factor": 1.5,
+  "tempo_changes": [
+    {
+      "tick": 0,
+      "old_microseconds_per_beat": 375000,
+      "new_microseconds_per_beat": 250000,
+      "old_bpm": 160.0,
+      "new_bpm": 240.0
+    }
+  ]
+}

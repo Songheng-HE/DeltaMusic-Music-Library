@@ -1,0 +1,493 @@
+{
+  "source_file": "beijiaerhu-pan\\input\\贝加尔湖畔.mid",
+  "source_sha256": "1c4973e404eca9fc4fdf607789b9c0fafa576de94a6b117d4042d054975f1a3a",
+  "global": {
+    "midi_type": 1,
+    "ticks_per_beat": 96,
+    "total_ticks": 19201,
+    "duration_seconds": 193.558481,
+    "tempo_map": [
+      {
+        "tick": 0,
+        "microseconds_per_beat": 967742,
+        "bpm": 61.999996
+      }
+    ],
+    "time_signatures": [],
+    "key_signatures": []
+  },
+  "tracks": [
+    {
+      "track_index": 0,
+      "track_name": null,
+      "programs": [],
+      "channels": [],
+      "note_count": 0,
+      "unique_onset_count": 0,
+      "max_simultaneous_notes": 0,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 0,
+      "strictly_monophonic": true,
+      "lowest_pitch": null,
+      "lowest_note": null,
+      "highest_pitch": null,
+      "highest_note": null,
+      "first_onset_tick": null,
+      "last_end_tick": null,
+      "median_duration_ticks": null,
+      "most_common_duration_ticks": null,
+      "most_common_duration_ratio": 0.0,
+      "median_onset_interval_ticks": null,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 1,
+      "track_name": "Hyper Canvas Demo",
+      "programs": [],
+      "channels": [],
+      "note_count": 0,
+      "unique_onset_count": 0,
+      "max_simultaneous_notes": 0,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 0,
+      "strictly_monophonic": true,
+      "lowest_pitch": null,
+      "lowest_note": null,
+      "highest_pitch": null,
+      "highest_note": null,
+      "first_onset_tick": null,
+      "last_end_tick": null,
+      "median_duration_ticks": null,
+      "most_common_duration_ticks": null,
+      "most_common_duration_ratio": 0.0,
+      "median_onset_interval_ticks": null,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 2,
+      "track_name": "Ð¡ÌáÇÙ1",
+      "programs": [
+        48
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 96,
+      "unique_onset_count": 91,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 13,
+      "max_same_onset_notes": 2,
+      "strictly_monophonic": false,
+      "lowest_pitch": 67,
+      "lowest_note": "G4",
+      "highest_pitch": 88,
+      "highest_note": "E6",
+      "first_onset_tick": 1344,
+      "last_end_tick": 17760,
+      "median_duration_ticks": 95,
+      "most_common_duration_ticks": 47,
+      "most_common_duration_ratio": 0.25,
+      "median_onset_interval_ticks": 96,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 3,
+      "track_name": "Ð¡ÌáÇÙ2",
+      "programs": [
+        48
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 88,
+      "unique_onset_count": 83,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 9,
+      "max_same_onset_notes": 2,
+      "strictly_monophonic": false,
+      "lowest_pitch": 62,
+      "lowest_note": "D4",
+      "highest_pitch": 88,
+      "highest_note": "E6",
+      "first_onset_tick": 1344,
+      "last_end_tick": 17760,
+      "median_duration_ticks": 95,
+      "most_common_duration_ticks": 47,
+      "most_common_duration_ratio": 0.2727,
+      "median_onset_interval_ticks": 96,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 4,
+      "track_name": "ÖÐÌáÇÙ",
+      "programs": [
+        48
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 95,
+      "unique_onset_count": 95,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 6,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": false,
+      "lowest_pitch": 58,
+      "lowest_note": "A#3",
+      "highest_pitch": 81,
+      "highest_note": "A5",
+      "first_onset_tick": 1345,
+      "last_end_tick": 17760,
+      "median_duration_ticks": 95,
+      "most_common_duration_ticks": 23,
+      "most_common_duration_ratio": 0.2632,
+      "median_onset_interval_ticks": 95,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 5,
+      "track_name": "´óÌáÇÙ",
+      "programs": [
+        48
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 94,
+      "unique_onset_count": 94,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 8,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": false,
+      "lowest_pitch": 50,
+      "lowest_note": "D3",
+      "highest_pitch": 65,
+      "highest_note": "F4",
+      "first_onset_tick": 1344,
+      "last_end_tick": 17760,
+      "median_duration_ticks": 95,
+      "most_common_duration_ticks": 23,
+      "most_common_duration_ratio": 0.2234,
+      "median_onset_interval_ticks": 96,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 6,
+      "track_name": "±´Ë¾ÌáÇÙ",
+      "programs": [
+        48
+      ],
+      "channels": [
+        0
+      ],
+      "note_count": 68,
+      "unique_onset_count": 68,
+      "max_simultaneous_notes": 1,
+      "overlapping_note_count": 0,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": true,
+      "lowest_pitch": 50,
+      "lowest_note": "D3",
+      "highest_pitch": 62,
+      "highest_note": "D4",
+      "first_onset_tick": 1343,
+      "last_end_tick": 17759,
+      "median_duration_ticks": 192,
+      "most_common_duration_ticks": 192,
+      "most_common_duration_ratio": 0.75,
+      "median_onset_interval_ticks": 192,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 7,
+      "track_name": "¸èÊÖ",
+      "programs": [
+        72
+      ],
+      "channels": [
+        4
+      ],
+      "note_count": 213,
+      "unique_onset_count": 213,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 6,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": false,
+      "lowest_pitch": 60,
+      "lowest_note": "C4",
+      "highest_pitch": 86,
+      "highest_note": "D6",
+      "first_onset_tick": 288,
+      "last_end_tick": 18816,
+      "median_duration_ticks": 45,
+      "most_common_duration_ticks": 47,
+      "most_common_duration_ratio": 0.2207,
+      "median_onset_interval_ticks": 48,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 8,
+      "track_name": "¸ÖÇÙÏÒÀÖ",
+      "programs": [
+        0
+      ],
+      "channels": [
+        3
+      ],
+      "note_count": 975,
+      "unique_onset_count": 307,
+      "max_simultaneous_notes": 7,
+      "overlapping_note_count": 877,
+      "max_same_onset_notes": 6,
+      "strictly_monophonic": false,
+      "lowest_pitch": 41,
+      "lowest_note": "F2",
+      "highest_pitch": 96,
+      "highest_note": "C7",
+      "first_onset_tick": 384,
+      "last_end_tick": 18817,
+      "median_duration_ticks": 94,
+      "most_common_duration_ticks": 94,
+      "most_common_duration_ratio": 0.3467,
+      "median_onset_interval_ticks": 48,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 9,
+      "track_name": "ÊÖ·çÇÙ22",
+      "programs": [
+        21
+      ],
+      "channels": [
+        1
+      ],
+      "note_count": 749,
+      "unique_onset_count": 319,
+      "max_simultaneous_notes": 5,
+      "overlapping_note_count": 509,
+      "max_same_onset_notes": 4,
+      "strictly_monophonic": false,
+      "lowest_pitch": 50,
+      "lowest_note": "D3",
+      "highest_pitch": 86,
+      "highest_note": "D6",
+      "first_onset_tick": 242,
+      "last_end_tick": 17759,
+      "median_duration_ticks": 23,
+      "most_common_duration_ticks": 23,
+      "most_common_duration_ratio": 0.6889,
+      "median_onset_interval_ticks": 24,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 10,
+      "track_name": "Ä¾¼ªËû",
+      "programs": [
+        25
+      ],
+      "channels": [
+        2
+      ],
+      "note_count": 732,
+      "unique_onset_count": 714,
+      "max_simultaneous_notes": 6,
+      "overlapping_note_count": 640,
+      "max_same_onset_notes": 4,
+      "strictly_monophonic": false,
+      "lowest_pitch": 41,
+      "lowest_note": "F2",
+      "highest_pitch": 69,
+      "highest_note": "A4",
+      "first_onset_tick": 384,
+      "last_end_tick": 18817,
+      "median_duration_ticks": 46,
+      "most_common_duration_ticks": 46,
+      "most_common_duration_ratio": 0.4235,
+      "median_onset_interval_ticks": 24,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 11,
+      "track_name": "Ä¾¼ªËû #2",
+      "programs": [
+        25
+      ],
+      "channels": [
+        2
+      ],
+      "note_count": 182,
+      "unique_onset_count": 177,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 5,
+      "max_same_onset_notes": 2,
+      "strictly_monophonic": false,
+      "lowest_pitch": 64,
+      "lowest_note": "E4",
+      "highest_pitch": 70,
+      "highest_note": "A#4",
+      "first_onset_tick": 480,
+      "last_end_tick": 1757,
+      "median_duration_ticks": 5,
+      "most_common_duration_ticks": 5,
+      "most_common_duration_ratio": 0.9945,
+      "median_onset_interval_ticks": 6,
+      "likely_karaoke_or_guide_track": true,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 7
+      }
+    },
+    {
+      "track_index": 12,
+      "track_name": "µç±´Ë¾",
+      "programs": [
+        33
+      ],
+      "channels": [
+        5
+      ],
+      "note_count": 99,
+      "unique_onset_count": 99,
+      "max_simultaneous_notes": 2,
+      "overlapping_note_count": 1,
+      "max_same_onset_notes": 1,
+      "strictly_monophonic": false,
+      "lowest_pitch": 41,
+      "lowest_note": "F2",
+      "highest_pitch": 53,
+      "highest_note": "F3",
+      "first_onset_tick": 384,
+      "last_end_tick": 18815,
+      "median_duration_ticks": 189,
+      "most_common_duration_ticks": 189,
+      "most_common_duration_ratio": 0.8081,
+      "median_onset_interval_ticks": 192,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 13,
+      "track_name": "´ò»÷ÀÖ",
+      "programs": [
+        0
+      ],
+      "channels": [
+        9
+      ],
+      "note_count": 346,
+      "unique_onset_count": 256,
+      "max_simultaneous_notes": 3,
+      "overlapping_note_count": 91,
+      "max_same_onset_notes": 3,
+      "strictly_monophonic": false,
+      "lowest_pitch": 75,
+      "lowest_note": "D#5",
+      "highest_pitch": 82,
+      "highest_note": "A#5",
+      "first_onset_tick": 0,
+      "last_end_tick": 18480,
+      "median_duration_ticks": 48,
+      "most_common_duration_ticks": 48,
+      "most_common_duration_ratio": 0.9827,
+      "median_onset_interval_ticks": 48,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    },
+    {
+      "track_index": 14,
+      "track_name": "Áå¹ÄµõïïÀà",
+      "programs": [
+        0
+      ],
+      "channels": [
+        9
+      ],
+      "note_count": 645,
+      "unique_onset_count": 484,
+      "max_simultaneous_notes": 4,
+      "overlapping_note_count": 185,
+      "max_same_onset_notes": 4,
+      "strictly_monophonic": false,
+      "lowest_pitch": 49,
+      "lowest_note": "C#3",
+      "highest_pitch": 81,
+      "highest_note": "A5",
+      "first_onset_tick": 0,
+      "last_end_tick": 18816,
+      "median_duration_ticks": 4,
+      "most_common_duration_ticks": 4,
+      "most_common_duration_ratio": 0.7209,
+      "median_onset_interval_ticks": 7,
+      "likely_karaoke_or_guide_track": false,
+      "anomalies": {
+        "unmatched_note_off": 0,
+        "unterminated_notes": 0,
+        "zero_length_notes": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "operation": "scale-tempo/v1",
+  "input_file": "仓库根目录\\奇迹再现\\奇迹再现_1.3x_first30s_rests_halved.mid",
+  "input_sha256": "d5930c3beb03fbe172de8c29e1cae788b4f76014b4c955650bda61d6b1f1a8e2",
+  "output_file": "仓库根目录\\奇迹再现\\奇迹再现_1.17x_first30s_rests_halved.mid",
+  "output_sha256": "3e8e9909c3ea787b96d7a69d9662d33cac26a5c1659572b8e665a7f7032ff2c9",
+  "speed_factor": 0.9,
+  "tempo_changes": [
+    {
+      "tick": 0,
+      "old_microseconds_per_beat": 288462,
+      "new_microseconds_per_beat": 320513,
+      "old_bpm": 207.99966720053249,
+      "new_bpm": 187.1998951680587
+    }
+  ]
+}

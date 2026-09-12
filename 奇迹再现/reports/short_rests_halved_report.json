@@ -1,0 +1,159 @@
+{
+  "operation": "halve-reviewed-short-rests/v1",
+  "input_file": "仓库根目录\\奇迹再现\\奇迹再现_1.3x_208bpm.mid",
+  "input_sha256": "992870abc5e0786ef920aaf782a3fd563de4eab9383ed0d80634dbb727ed0900",
+  "output_file": "仓库根目录\\奇迹再现\\奇迹再现_1.3x_short_rests_halved.mid",
+  "output_sha256": "2dcb1de2920aef98ebd5bd0d32b1aacbb113c22cc3d069f4148991d51e8e0509",
+  "track_index": 1,
+  "selection_bounds_ticks": {
+    "min": 96,
+    "max": 192
+  },
+  "selected_rests": [
+    {
+      "start_tick": 3024,
+      "end_tick": 3162,
+      "gap_ticks": 138,
+      "removed_ticks": 69
+    },
+    {
+      "start_tick": 3834,
+      "end_tick": 3930,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 4602,
+      "end_tick": 4698,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 6858,
+      "end_tick": 7002,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 7626,
+      "end_tick": 7770,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 11274,
+      "end_tick": 11418,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 12138,
+      "end_tick": 12282,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 14394,
+      "end_tick": 14490,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 15162,
+      "end_tick": 15354,
+      "gap_ticks": 192,
+      "removed_ticks": 96
+    },
+    {
+      "start_tick": 18402,
+      "end_tick": 18528,
+      "gap_ticks": 126,
+      "removed_ticks": 63
+    },
+    {
+      "start_tick": 19200,
+      "end_tick": 19296,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 19968,
+      "end_tick": 20064,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 22224,
+      "end_tick": 22368,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 22992,
+      "end_tick": 23136,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 26640,
+      "end_tick": 26784,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 27504,
+      "end_tick": 27648,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 29760,
+      "end_tick": 29856,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 32688,
+      "end_tick": 32832,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 33552,
+      "end_tick": 33696,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 35808,
+      "end_tick": 35904,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    },
+    {
+      "start_tick": 36576,
+      "end_tick": 36674,
+      "gap_ticks": 98,
+      "removed_ticks": 49
+    },
+    {
+      "start_tick": 38834,
+      "end_tick": 38978,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 39698,
+      "end_tick": 39842,
+      "gap_ticks": 144,
+      "removed_ticks": 72
+    },
+    {
+      "start_tick": 41954,
+      "end_tick": 42050,
+      "gap_ticks": 96,
+      "removed_ticks": 48
+    }
+  ],
+  "total_removed_ticks": 1525
+}
