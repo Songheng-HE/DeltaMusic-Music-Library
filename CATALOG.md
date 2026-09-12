@@ -1,26 +1,35 @@
-# 曲目目录与最终可演奏 MIDI
+# 曲目目录与可下载演奏版
 
-下表的“下载最终 MIDI”是当前推荐给普通玩家的版本。它们来自各曲目目录的人工审核与编配结果；候选、基线和原始输入仍保留在同一目录中，供修谱者复核。
+普通玩家请从仓库根目录的 [`可下载演奏版/`](可下载演奏版/) 下载 MIDI。该目录中的文件全部使用“中文曲名（版本说明）.mid”命名，避免下载后出现一批难以区分的“最终 MIDI”。
 
-| 曲目 | 目录 | 当前状态 | 下载最终 MIDI | 修谱入口 |
+这些下载文件是对应曲目目录中处理产物的**逐字节副本**；文件身份以 [MIDI-MANIFEST.yml](MIDI-MANIFEST.yml) 和 [CHECKSUMS-SHA256.txt](CHECKSUMS-SHA256.txt) 中的 SHA-256 为准，而不是只靠文件名判断。历史曲目目录、输入材料和报告中的旧文件名均保留不动，方便复核。
+
+| 曲目 | 状态 | 中文下载文件 | SHA-256（前 12 位） | 修谱入口 |
 | --- | --- | --- | --- | --- |
-| 奇迹再现 | `奇迹再现` | 已完成 | [奇迹再现 1.17×](<奇迹再现/奇迹再现_1.17x.mid?raw=1>) | `input/`、`reports/` |
-| 贝加尔湖畔 | `beijiaerhu-pan` | 已完成 | [单旋律 MIDI](<beijiaerhu-pan/beijiaerhu-pan_melody_only.mid?raw=1>) | `input/`、`reports/` |
-| 当年情 | `dang-nian-qing` | 已完成 | [最终 MIDI](<dang-nian-qing/当年情.mid?raw=1>) | `reports/` |
-| 父亲 | `father` | 已完成 | [最终版 MIDI](<father/父亲最终版.mid?raw=1>) | `input/`、`reports/`、`scripts/` |
-| 杀死那个石家庄人 | `kill-that-shijiazhuang-man` | 已完成 | [最终 MIDI](<kill-that-shijiazhuang-man/杀死那个石家庄人.mid?raw=1>) | `reports/` |
-| 卡农（D 大调） | `pachelbel-canon-in-d` | 已完成 | [单旋律 MIDI](<pachelbel-canon-in-d/pachelbel-canon-in-d_melody_only.mid?raw=1>) | `input/`、`reports/`、播放器脚本 |
-| 红凯之歌 | `red-kai-song` | 已完成 | [最终 MIDI](<red-kai-song/红凯之歌.mid?raw=1>) | `input/`、`reports/`、`transcription/` |
-| 太阳照常升起 | `taiyang-zhaochang-shengqi-multitrack` | 已完成 | [裁剪尾部静音版](<taiyang-zhaochang-shengqi-multitrack/太阳照常升起.mid?raw=1>) | `input/`、`reports/`、`scripts/` |
-| 我不难过 | `wobu-nanguo` | 已完成 | [最终 MIDI](<wobu-nanguo/我不难过.mid?raw=1>) | `input/`、`reports/`、`scripts/` |
-| 月半小夜曲 | `yue-ban-xiao-ye-qu` | 已完成 | [最终 MIDI](<yue-ban-xiao-ye-qu/月半小夜曲.mid?raw=1>) | `reports/` |
-| 克罗地亚狂想曲 | `croatian-rhapsody` | 仅审计，尚无推荐成品 | — | `input/`、`reports/` |
-| 他是海盗 | `he-is-a-pirate` | 仅评估，尚无推荐成品 | — | `input/`、`reports/` |
-| Take My Breath Away | `take-my-breath-away` | 仅来源研究，尚无推荐成品 | — | `reports/` |
+| 奇迹再现 | 可演奏候选，待作者确认 | [奇迹再现（1.17倍速）](<可下载演奏版/奇迹再现（1.17倍速）.mid?raw=1>) | `3e8e9909c3ea` | `奇迹再现/input/`、`奇迹再现/reports/` |
+| 贝加尔湖畔 | 可演奏候选，待作者确认 | [贝加尔湖畔（单旋律候选）](<可下载演奏版/贝加尔湖畔（单旋律候选）.mid?raw=1>) | `fb704b857259` | `beijiaerhu-pan/input/`、`reports/` |
+| 当年情 | 可演奏候选，待作者确认 | [当年情（去空白候选）](<可下载演奏版/当年情（去空白候选）.mid?raw=1>) | `1dab919c6580` | `dang-nian-qing/reports/` |
+| 父亲 | 可演奏候选，待作者确认 | [父亲（1.11倍速·去尾候选）](<可下载演奏版/父亲（1.11倍速·去尾候选）.mid?raw=1>) | `7b272251b4b8` | `father/input/`、`reports/`、`scripts/` |
+| 杀死那个石家庄人 | 可演奏候选，待作者确认 | [杀死那个石家庄人（编辑候选）](<可下载演奏版/杀死那个石家庄人（编辑候选）.mid?raw=1>) | `d4a90e6e5a29` | `kill-that-shijiazhuang-man/reports/` |
+| 卡农（D 大调） | 已验证默认可演奏版 | [卡农（D大调·单旋律）](<可下载演奏版/卡农（D大调·单旋律）.mid?raw=1>) | `da3a93dc8930` | `pachelbel-canon-in-d/input/`、`reports/`、播放器脚本 |
+| 红凯之歌 | 已验证默认可演奏版 | [红凯之歌（单旋律）](<可下载演奏版/红凯之歌（单旋律）.mid?raw=1>) | `75fd9d9801f2` | `red-kai-song/input/`、`reports/`、`transcription/` |
+| 太阳照常升起 | 已验证默认可演奏版 | [太阳照常升起（裁剪尾部静音）](<可下载演奏版/太阳照常升起（裁剪尾部静音）.mid?raw=1>) | `92c84690af6f` | `taiyang-zhaochang-shengqi-multitrack/input/`、`reports/`、`scripts/` |
+| 我不难过 | 可演奏候选，待作者确认 | [我不难过（单线候选）](<可下载演奏版/我不难过（单线候选）.mid?raw=1>) | `7d4031e7b5a9` | `wobu-nanguo/input/`、`reports/`、`scripts/` |
+| 月半小夜曲 | 可演奏候选，待作者确认 | [月半小夜曲（压缩休止候选）](<可下载演奏版/月半小夜曲（压缩休止候选）.mid?raw=1>) | `f078183f0a21` | `yue-ban-xiao-ye-qu/reports/` |
+| 壮志凌云片尾曲（Take My Breath Away） | 维护者提供的单旋律可演奏版 | [壮志凌云片尾曲（单旋律）](<可下载演奏版/壮志凌云片尾曲（单旋律）.mid?raw=1>) | `5ade2b135162` | `take-my-breath-away/README.md`、`reports/` |
+| 加勒比海盗主题曲（他是海盗） | 上声部候选，待试听确认 | [加勒比海盗主题曲（上声部候选）](<可下载演奏版/加勒比海盗主题曲（上声部候选）.mid?raw=1>) | `d7b516fa1bf1` | `he-is-a-pirate/input/`、`reports/`、`README.md` |
+| 克罗地亚狂想曲 | 仅审计，尚无可下载演奏版 | — | — | `croatian-rhapsody/input/`、`reports/` |
 
-## 版本说明
+## 状态含义
 
-- “推荐最终版”是当前默认下载目标，不代表不可以继续修订。
-- 若你要修改某首曲子，请保留旧版、提交新候选，并在投稿说明中写清改动和依据。
-- 历史 README 或报告中的文件名可能与当前较短的中文文件名不同；以上表为准。
-- GitHub 中 MIDI 通常以二进制文件下载，网页不会自动播放。需要试听时，请下载后用自己的 MIDI 播放器或目标游戏内导入功能验证。
+- **已验证默认可演奏版**：报告和文件身份均已核实，可作为普通玩家的默认下载项。
+- **可演奏候选，待作者确认**：文件已能与历史处理链的 SHA-256 对应，但“对外默认版”的选择仍待维护者试听或确认。
+- **维护者提供的单旋律可演奏版**：维护者新增提供的 MIDI，已核对基本单旋律结构；后续可以补充更完整的审计报告。
+- **上声部候选，待试听确认**：结构上是单旋律，但其旋律选择仍需人工试听确认，不能称为最终版。
+
+## 版本规则
+
+- 不把所有下载文件统称为“最终 MIDI”。请同时看文件名中的版本说明和本表的状态。
+- 文件重命名不代表内容改变：请用 SHA-256 确认同一版本。
+- 若你修订某首曲目，请保留旧版、提交新候选，并在投稿说明中写清改动和依据。
+- GitHub 通常以二进制文件下载 MIDI，网页不会自动播放；请下载后用 MIDI 播放器或目标游戏内导入功能试听。
