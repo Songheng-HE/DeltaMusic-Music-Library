@@ -7,7 +7,7 @@
 ## 快速入口
 
 - [逐首下载可演奏 MIDI](CATALOG.md)
-- [下载全部可演奏 MIDI（ZIP）](https://github.com/Songheng-HE/DeltaMusic-Music-Library/releases/latest/download/DeltaMusic-可下载演奏版-v0.1.1.zip)
+- [下载全部可演奏 MIDI（ZIP）](https://github.com/Songheng-HE/DeltaMusic-Music-Library/releases/latest/download/DeltaMusic-playable-midi-v0.1.1.zip)
 - [查看下载文件的 SHA-256 清单](CHECKSUMS-SHA256.txt)
 - [在 Codex、ChatGPT、Deep Code、豆包或 DeepSeek 中使用](PLATFORM_GUIDE.md)
 - [复制提示词开始修谱](PROMPTS.md)
